@@ -21,6 +21,27 @@ qubit), measured, and decoded back into pixel values — end to end, entirely in
 3. **Phase 3 — Negation:** Apply a spatial-domain image processing operation (intensity inversion)
    directly at the circuit level and verify the recovered result matches `255 - original`.
 
+## Results
+
+<img width="511" height="97" alt="image" src="https://github.com/user-attachments/assets/6a89f155-e247-4a39-ada0-d189c6d52c2b" />
+
+<img width="997" height="257" alt="image" src="https://github.com/user-attachments/assets/010b1889-58e2-4cd2-a993-8383ee00f2e3" />
+
+<img width="825" height="576" alt="image" src="https://github.com/user-attachments/assets/bce28d29-1f8a-4864-a917-3265581d084b" />
+
+<img width="1100" height="519" alt="image" src="https://github.com/user-attachments/assets/067ac895-8da5-49de-be38-cb78dc019e2f" />
+
+## Dependencies
+
+```
+qiskit
+qiskit-aer
+matplotlib
+numpy
+pylatexenc
+jupyter
+```
+
 ## Setup
 
 ```bash
@@ -51,3 +72,7 @@ of exponential speedup over classical FFT-based image processing. Contributions 
   preparation, image compression, and processing operations."* Quantum Information Processing,
   10(1), 63–84 (2011).
 - A. Dendukuri, K. Luu. *"Image Processing in Quantum Computers."* [arXiv:1812.11042](https://arxiv.org/abs/1812.11042) (2018).
+
+## License
+
+No license specified — shared as sample/learning code implementing the referenced papers.
