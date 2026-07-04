@@ -37,8 +37,7 @@ encoding circuit addresses coordinates using a `(q0)(q1)` convention (e.g. flipp
 targets coordinate `01`), so the decoding step reassembles the position key accordingly. Getting
 this backwards is an easy, silent bug — it swaps recovered pixel values between non-symmetric
 coordinates (`01` ↔ `10`) while the symmetric ones (`00`, `11`) still look correct, which can hide
-the mistake unless you check every coordinate individually. Worth double-checking if you fork this
-and change the number of qubits.
+the mistake unless you check every coordinate individually.
 
 ## What's next: stepping into the Fourier basis
 
