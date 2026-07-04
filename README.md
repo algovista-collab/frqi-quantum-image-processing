@@ -6,6 +6,7 @@ encoding scheme, following the walkthrough in *"Image Processing in Quantum Comp
 Le, Dong & Hirota (2011).
 
 **Full write-up:** [Implementing "Image Processing in Quantum Computers" in Qiskit](https://medium.com/@arpitha.rajeev37/image-processing-in-quantum-computers-a76ee63f5041)
+
 **Paper implemented:** [arXiv:1812.11042](https://arxiv.org/abs/1812.11042)
 
 ## What's in this notebook
